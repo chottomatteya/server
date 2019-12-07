@@ -4,8 +4,9 @@ const Schema = mongoose.Schema;
 /**
  * Asset
  */
-let Asset = new Schema(
+let AssetSchema = new Schema(
   {
+    _id: mongoose.Schema.Types.ObjectId,
     code: {
       type: Number
     },
@@ -14,10 +15,11 @@ let Asset = new Schema(
     },
     owner: {
       type: String
-    }
+    },
+    avatar: { type: Array }
   },
   {
     collection: 'assets'
   });
 
-module.exports = mongoose.model('assets', Asset);
+module.exports = mongoose.model('assets', AssetSchema);

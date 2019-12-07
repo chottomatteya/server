@@ -1,4 +1,9 @@
 const express = require('express');
+const multer = require('multer');
+let bodyParser = require('body-parser');
+const url = 'mongodb://127.0.0.1:27017/files';
+let GridFsStorage = require('multer-gridfs-storage');
+let Grid = require('gridfs-stream');
 const app = express();
 
 const assetRoutes = express.Router();
@@ -21,6 +26,24 @@ assetRoutes.route('/').get(function (req, res) {
 /**
  * Add assset.
  */
+// Setting up the storage element
+let storage = new GridFsStorage({url: url});
+
+// Multer configuration for single file uploads
+let upload = multer({
+  storage: storage
+}).single('file');
+
+assetRoutes.route('/addImage').post(function (req, res) {
+  upload(req,res, (err) => {
+    if(err){
+         res.json({error_code:1,err_desc:err});
+         return;
+    }
+    res.json({error_code:0, error_desc: null, file_uploaded: true});
+});
+});
+
 assetRoutes.route('/add').post(function (req, res) {
   let asset = new Asset(req.body);
   asset.save()
