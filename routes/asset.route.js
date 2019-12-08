@@ -36,6 +36,7 @@ let upload = multer({
 
 assetRoutes.route('/addImage').post(function (req, res) {
   upload(req,res, (err) => {
+    console.log( 'I am here.', err);
     if(err){
          res.json({error_code:1,err_desc:err});
          return;
