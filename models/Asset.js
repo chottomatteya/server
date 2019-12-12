@@ -6,7 +6,6 @@ const Schema = mongoose.Schema;
  */
 let AssetSchema = new Schema(
   {
-    _id: mongoose.Schema.Types.ObjectId,
     code: {
       type: Number
     },
