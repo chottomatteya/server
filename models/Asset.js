@@ -6,8 +6,8 @@ const Schema = mongoose.Schema;
  */
 let AssetSchema = new Schema(
   {
-    code: {
-      type: Number
+    location: {
+      type: String
     },
     name: {
       type: String
@@ -15,7 +15,9 @@ let AssetSchema = new Schema(
     owner: {
       type: String
     },
-    avatar: { type: Array }
+    price: { 
+      type: Number
+    }
   },
   {
     collection: 'assets'

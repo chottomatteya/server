@@ -15,10 +15,10 @@ Asset.find( function (err, assets) {
   if (err) {
     console.err('having trouble reading from mongo');
   } else {
-    console.log('the asset returned is ',assets);
+    //console.log('the asset returned is ',assets);
     if (assets.length == 0) {
       for (let i = 0; i < 20; i++) {
-        const ass = new Asset({location: '1.jpg', name: 'Ham Hock', owner: 'Raphael Johns', price: 10.22});
+        const ass = new Asset({location: '../assets/lmao.gif', name: 'Ham Hock', owner: 'Raphael Johns', price: 10.22});
         ass.save();
       }
     } 
