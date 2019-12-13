@@ -10,7 +10,7 @@ const assetRoutes = express.Router();
 let Asset = require('../models/Asset');
 
 //check if assets in db is empty
-let testAssets = [];
+let testAssets = require('../models/shopping.json');
 Asset.find( function (err, assets) {
   if (err) {
     console.err('having trouble reading from mongo');
@@ -18,7 +18,7 @@ Asset.find( function (err, assets) {
     //console.log('the asset returned is ',assets);
     if (assets.length == 0) {
       for (let i = 0; i < 20; i++) {
-        const ass = new Asset({location: '../assets/lmao.gif', name: 'Ham Hock', owner: 'Raphael Johns', price: 10.22});
+        const ass = new Asset(testAssets[i]);
         ass.save();
       }
     } 

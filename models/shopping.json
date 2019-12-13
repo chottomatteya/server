@@ -1,0 +1,133 @@
+[{
+    "location": "/assets/Apple.jpeg",
+    "name": "Apples",
+    "owner": "Pepper Rich",
+    "price": 0.89,
+    "category": "Grocery"
+}, {
+    "location": "/assets/BakChoi.jpeg",
+    "name": "BakChoi",
+    "owner": "Wong's Farm",
+    "price": 1.99,
+    "category": "Grocery"
+}, {
+    "location": "/assets/Blanket.jpeg",
+    "name": "Blanket",
+    "owner": "Matta Stuward",
+    "price": 8.90,
+    "category": "Household"
+}, {
+    "location": "/assets/Cola.jpeg",
+    "name": "Sam's Cola",
+    "owner": "Sam's Club",
+    "price": 12.50,
+    "category": "Grocery"
+}, {
+    "location": "/assets/GroundBeef.jpeg",
+    "name": "Ground Beef",
+    "owner": "Joe Farm",
+    "price": 3.89,
+    "category": "Grocery"
+}, {
+    "location": "/assets/HuffyBike.jpeg",
+    "name": "Huffy Bike",
+    "owner": "Huffy",
+    "price": 189.99,
+    "category": "Sports"
+}, {
+    "location": "/assets/Motocraft.jpeg",
+    "name": "Motocraft oil",
+    "owner": "Motocraft",
+    "price": 12.99,
+    "category": "Household"
+}, {
+    "location": "/assets/NestleTollIcecream.jpeg",
+    "name": "Nestle Toll Ice cream",
+    "owner": "Nestle",
+    "price": 4.89,
+    "category": "Grocery"
+}, {
+    "location": "/assets/Orange.jpeg",
+    "name": "Orange",
+    "owner": "Sunkist",
+    "price": 0.39,
+    "category": "Grocery"
+}, {
+    "location": "/assets/Oven.jpeg",
+    "name": "Oven",
+    "owner": "General Electric",
+    "price": 19.89,
+    "category": "Household"
+}, {
+    "location": "/assets/Perfume.jpeg",
+    "name": "Apples",
+    "owner": "PElizabeth",
+    "price": 21.00,
+    "category": "Apparel"
+}, {
+    "location": "/assets/Quaker-State.jpeg",
+    "name": "Quaker State Oil",
+    "owner": "QState",
+    "price": 7.49,
+    "category": "Household"
+}, {
+    "location": "/assets/RainJacket.jpeg",
+    "name": "Oven",
+    "owner": "General Electric",
+    "price": 19.89,
+    "category": "Household"
+}, {
+    "location": "/assets/RomainLattice.jpeg",
+    "name": "Apples",
+    "owner": "Elizabeth",
+    "price": 21.00,
+    "category": "Apparel"
+}, {
+    "location": "/assets/Sharpies.jpeg",
+    "name": "Quaker State Oil",
+    "owner": "QState",
+    "price": 7.49,
+    "category": "Household"
+},{
+    "location": "/assets/SleepingBag.jpeg",
+    "name": "Oven",
+    "owner": "General Electric",
+    "price": 19.89,
+    "category": "Household"
+}, {
+    "location": "/assets/StanleyBatteries.jpeg",
+    "name": "Apples",
+    "owner": "PElizabeth",
+    "price": 21.00,
+    "category": "Apparel"
+}, {
+    "location": "/assets/Steak.jpeg",
+    "name": "Quaker State Oil",
+    "owner": "QState",
+    "price": 7.49,
+    "category": "Household"
+},{
+    "location": "/assets/TexasInstruments.jpeg",
+    "name": "Oven",
+    "owner": "General Electric",
+    "price": 19.89,
+    "category": "Household"
+}, {
+    "location": "/assets/Watch.jpeg",
+    "name": "Apples",
+    "owner": "PElizabeth",
+    "price": 21.00,
+    "category": "Apparel"
+}, {
+    "location": "/assets/WomenJeans.jpeg",
+    "name": "Quaker State Oil",
+    "owner": "QState",
+    "price": 7.49,
+    "category": "Household"
+},{
+    "location": "/assets/WomenSherpa.jpeg",
+    "name": "Oven",
+    "owner": "General Electric",
+    "price": 19.89,
+    "category": "Household"
+}]

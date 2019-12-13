@@ -17,6 +17,9 @@ let AssetSchema = new Schema(
     },
     price: { 
       type: Number
+    },
+    category: { 
+      type: String
     }
   },
   {
